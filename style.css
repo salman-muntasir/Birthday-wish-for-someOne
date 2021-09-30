@@ -1,0 +1,106 @@
+body{
+  background: black;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+.img-area{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  
+  
+}
+.img-area img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+}
+
+  #we{
+ 
+    height: 250px;
+width: 250px;
+  border: 5px solid lightcoral;
+  border-radius: 5%;
+    
+  }
+ 
+
+button{
+  
+
+  height: 70px;
+  width: 200px;
+  margin-top: 20px;
+  border: 1px solid blue;
+  color: #255784;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 10%;
+  transition: 0.2s;
+  background-color: #2196f3;
+  box-shadow: 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 90px #2196f3;
+  
+}
+p{
+  margin: 25px 10px 0px 10px;
+  color: khaki;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (min-width:980px) and (max-width:1200px){
+ .img-area{
+   
+   padding:50px;
+ }
+.img-area img {
+  
+  height: 200px;
+  width: 200px;
+}
+  
+  #we{
+    
+    height: 600px;
+    width: 700px;
+    border: 5px solid lightcoral;
+    border-radius: 5%;
+  }
+ 
+  
+  button{
+    height: 150px;
+    width: 650px;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 2rem;
+letter-spacing: 0.3rem;
+    margin-top:100px;
+    margin-bottom: 50px;
+    border: 2px solid blue;
+    border-radius: 2%;
+  }
+  /*img */
+  
+  
+  
+  p{
+    margin: 50px 60px 0px 60px;
+    color: skyblue;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+  
+}
